@@ -1,6 +1,10 @@
 package main
 
-import "golang/helper"
+import (
+	_ "golang/database"
+	"golang/helper"
+)
 func main() {
-helper.PointerFunction()
+helper.Flag()
+// database.PackageInit()
 }
