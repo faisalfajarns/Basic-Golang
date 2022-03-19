@@ -1,10 +1,9 @@
 package main
 
 import (
-	_ "golang/database"
 	"golang/helper"
 )
 func main() {
-helper.Flag()
+helper.Reflection()
 // database.PackageInit()
 }
