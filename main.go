@@ -4,6 +4,6 @@ import (
 	"golang/helper"
 )
 func main() {
-helper.Regexp()
+helper.Reflection()
 // database.PackageInit()
 }
